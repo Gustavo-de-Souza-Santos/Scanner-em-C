@@ -3,7 +3,26 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# executáveis
+*.exe
+
+# objetos de compilação
+*.o
+*.obj
+obj/
+
+# Code::Blocks
+*.cbp
+*.layout
+
+# builds
+bin/
+build/
+Release/
+Debug/
+
 # User-specific files
+
 *.exe
 *.out
 *.o
